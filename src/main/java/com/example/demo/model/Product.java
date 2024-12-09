@@ -7,7 +7,7 @@ import javax.persistence.Id;
 public class Product {
 
 	private String city;
-    private String pmanuDate;
+	private String pmanuDate;
 	@Id
 	private int pid;
 	private String pname;
@@ -62,6 +62,10 @@ public class Product {
 
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
+	}
+
+	public void m1() {
+		System.out.println("m1--Method");
 	}
 
 }
