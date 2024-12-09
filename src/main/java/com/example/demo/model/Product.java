@@ -63,5 +63,9 @@ public class Product {
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
+	public void m3()
+	{
+		System.out.println("m3 method added");
+	}
 
 }
