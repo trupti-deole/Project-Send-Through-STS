@@ -7,7 +7,7 @@ import javax.persistence.Id;
 public class Product {
 
 	private String city;
-
+    private String pmanuDate;
 	@Id
 	private int pid;
 	private String pname;
